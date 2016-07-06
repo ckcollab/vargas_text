@@ -3,7 +3,7 @@ import praw
 
 
 # Connect to reddit as our generator (reddit requires 
-# you to do this, apparently)
+# you to specify user agent, apparently)
 reddit = praw.Reddit(user_agent='Vargas Markov Generator')
 user = reddit.get_redditor('_vargas_')
 
